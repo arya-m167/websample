@@ -1,0 +1,40 @@
+
+[
+    {
+        "title": "Developer",
+        "type": "Development",
+        "created at": "2023-10-01T12:00:00Z",
+        "created by": "user1"
+    },
+    {
+        "title": "UI designer",
+        "type": "Design",
+        "created at": "2023-11-01T12:00:00Z",
+        "created by": "user2"
+    },
+    {
+        "title": "Project Manager",
+        "type": "Management",
+        "created at": "2023-12-15T12:00:00Z",
+        "created by": "user3"
+    },
+    {
+        "title": "Data Analyst",
+        "type": "Analysis",
+        "created at": "2023-13-20T12:00:00Z",
+        "created by": "user4"
+    },
+    {
+        "title": "System Administrator",
+        "type": "Administration",
+        "created at": "2023-14-25T12:00:00Z",
+        "created by": "user5"
+    },
+    {
+        "title": "Network Engineer",
+        "type": "Engineering",
+        "created at": "2023-15-30T12:00:00Z",
+        "created by": "user6"
+    }
+    
+    ]
