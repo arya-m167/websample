@@ -1,4 +1,4 @@
-//load the DOM and fetch data from JSON file
+//this loads the DOM and fetch data from JSON file for me
 document.addEventListener('DOMContentLoaded', function() {
     fetch('data.json')
         .then   (response => {
@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     .catch  (error => console.error('There has been a problem with your fetch operation:', error));
 });
 
-// populate the table with data
+// this populates the table with data from the previous file
 function populateTable(data) {
     const tableBody = document.querySelector('table tbody');
-    tableBody.innerHTML = ''; // Clear existing rows
+    tableBody.innerHTML = ''; 
 
     data.forEach(item => {
         const row = document.createElement('tr');
